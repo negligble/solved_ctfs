@@ -1,0 +1,37 @@
+THe following two pieces can be found in the Microsoft-Windows-Powershell_Operational log ->
+
+
+
+Creating Scriptblock text (1 of 1):
+Get-ChildItem -Path "$env:TEMP" -Verbose
+Get-Process -Verbose
+
+$action = New-ScheduledTaskAction -Execute "powershell.exe" -Argument "-EncodedCommand JHRlbXBQYXRoID0gIiRlbnY6d2luZGlyXHRlbXBcR2gwc3QudHh0IgoiSFRCe0doMHN0X0wwYzR0MTBuIiB8IE91dC1GaWxlIC1GaWxlUGF0aCAkdGVtcFBhdGggLUVuY29kaW5nIHV0Zjg="
+$trigger = New-ScheduledTaskTrigger -AtStartup
+Register-ScheduledTask -Action $action -Trigger $trigger -TaskName "MaintenanceTask" -Description ""
+
+
+ScriptBlock ID: 677529ad-da67-4f73-a7b3-b3385eaed86b
+Path: C:\Users\usr01\AppData\Local\Temp\wLDwomPJLN.ps1
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Creating Scriptblock text (1 of 1):
+Get-PSDrive -Name C -Verbose
+Get-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion" -Verbose
+
+New-Item -Path "HKCU:\Software\cPdQnixceg" -Force
+New-ItemProperty -Path "HKCU:\Software\cPdQnixceg" -Name "cPdQnixceg" -Value "X1c0c19SM3YzNGwzZH0=" -PropertyType String
+Get-ScheduledTask -Verbose
+
+
+ScriptBlock ID: 72187be7-469a-440d-ac5f-44d1f81d3de5
+Path: C:\Users\usr01\AppData\Local\Temp\3MZvgfcEiT.ps1
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+The flag is contained in the base64 encoded strings in these commands.

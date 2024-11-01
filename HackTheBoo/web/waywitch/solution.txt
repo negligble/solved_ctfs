@@ -1,0 +1,7 @@
+After viewing the source on the running target the key is halloween-secret. This can be used to create an admin cookie like the following.
+
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWF0IjoxNzI5Nzk4MTQ5fQ.2T_QSGtR7ADksvVM537wQL-aU-o47MoOfDyeP8-EfFc
+
+
+Using this cookie to request /tickets will show a database entry containing the flag.

@@ -45,8 +45,8 @@ class encryptionHandler:
         
 flagGetter = encryptionHandler()
 
-port = 32659
-ip = '94.237.63.109'
+port = 49200
+ip = '94.237.59.119'
 url = f'http://{ip}:{port}'
 
 parameters = requests.post(url + '/api/request-session-parameters').json()
